@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { ButtonsCard } from "../components/ui/tailwindcss-buttons";
+import { ButtonsCard } from "../ui/tailwindcss-buttons";
 export function Hero() {
   return (
     <>
@@ -35,7 +35,6 @@ export function Hero() {
     </div>
   </div>
 </section>
-
     </>
   );
 }

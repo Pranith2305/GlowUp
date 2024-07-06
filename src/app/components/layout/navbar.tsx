@@ -30,6 +30,9 @@ function Navbar({ className }: { className?: string }) {
         <Link href={'/vr'}>
         <MenuItem setActive={setActive} active={active} item="Virtual Try-On" ></MenuItem>
         </Link>   
+        <Link href={'/profile'}>
+        <MenuItem setActive={setActive} active={active} item="Profile" ></MenuItem>
+        </Link>   
       </Menu>
     </div>
   );
